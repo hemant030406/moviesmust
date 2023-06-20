@@ -1,0 +1,65 @@
+body{
+    height: 100%;width: 100%;
+    background-image: radial-gradient(rgb(213, 3, 3),rgb(140, 4, 4),rgb(109, 4, 4),hsla(0, 91%, 9%, 0.959));
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+#mirror_game,#rear_window,#se7en,#tloto,#tsotl{
+    max-width: 30%; 
+    min-width: 256px;
+    min-height: fit-content;
+    background-image:linear-gradient(rgb(141, 158, 16),rgb(153, 156, 19), rgb(74, 68, 3));
+    border: solid rgba(1, 53, 53, 0.664);
+    border-radius: 2%;
+    border-width: 1%;
+    outline: solid rgba(1, 53, 53, 0.473);
+    margin-left: 4%;
+    margin-top: 9%;
+    padding: 4%;
+    text-align: justify;
+    text-decoration: none;
+    transition: transform 2s;
+    transition-timing-function: linear;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+#mirror_game:hover,#rear_window:hover,#tloto:hover,#tsotl:hover,#se7en:hover{
+    background-image: none;
+    background-color: rgb(78, 65, 0);
+    cursor: pointer;font-family: cursive;
+    color:rgb(217, 186, 12);
+    transform: scale3d(1.08,1.08,1.08);
+    animation-name: do;
+    animation-duration: 2s;
+}
+@keyframes do {
+     0%{opacity: 1;
+     }
+     50%{
+          opacity: 0.5;
+     }
+     100%{
+          opacity:1;
+     }
+
+}
+#heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    margin-top: -09%;
+    width: 105%;
+    position: fixed;
+    margin-left: -2%;
+    padding: 0%;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,rgb(1, 22, 56),rgb(79, 56, 56),rgb(1, 15, 37));transition: transform 2s;
+    transition-timing-function: linear;
+
+}
+
+#heading:hover{
+        cursor: default;transform: scale3d(1.08,1.08,1.08);
+}

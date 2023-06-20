@@ -1,0 +1,60 @@
+body{
+    height: 100vh;width: 100vw;
+    background-image:  radial-gradient(rgb(109, 78, 6)10%,hsla(27, 100%, 52%, 0.959) 80%);
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+#vertical_bar{
+    height: 110vh;
+    float: right;
+    background-color: red;
+    min-width: 2px;
+    border: solid red;
+    padding-right: 6vw;
+    padding-top:70vh;
+    margin-top: -2vh;
+    margin-right: 2vw;
+}
+#image{
+    border-radius: 2vh;
+    vertical-align: middle;
+    margin-left: -0.6vw;
+    margin-top: 2.5vh;
+    padding: 1vw;
+    padding-right: 2vw;
+    outline: solid tomato;
+}
+#content{
+    border-radius: 2vh;
+    padding: 2vh;
+    min-height: 350px;
+    margin-top: -360px;
+    margin-left: 320px;
+}
+#heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin-top: -20vh;
+    width: 105vw;
+    position: fixed;
+    margin-left: -2vw;
+    padding: 0vh;
+    font-weight: bold;
+    background-image: linear-gradient(-45deg,rgb(118, 93, 1),rgb(179, 179, 23),rgb(118, 93, 1));
+    transition: transform 2s;
+    transition-timing-function: linear;
+
+}
+
+#heading:hover{
+        cursor: default;transform: scale3d(1.08,1.08,1.08);
+}
+#dark_knight,#star_wars,#tlotr,#the_matrix,#inception{
+    margin-left:5vw ;
+    height: fit-content;
+    border-radius: 5vh;
+}
+#footer{
+    height: fit-content;
+}

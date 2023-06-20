@@ -1,0 +1,83 @@
+body{
+    height: 100%;width: 100%;
+    background-image:radial-gradient(rgb(5, 2, 26),rgb(1, 9, 30),rgb(0, 0, 1),hsla(207, 100%, 2%, 0.959));
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+#horror,#romantic_comedy,#thrilling,#animation,#action{
+    max-width: fit-content; 
+    min-width: fit-content;
+    border: solid rgba(1, 53, 53, 0.664);
+    border-radius: 2vh;
+    border-width: 1vw;
+    outline: solid rgba(1, 53, 53, 0.473);
+    background-color: black;
+    margin-left: 8vw;
+    margin-top: 3vh;
+    padding: 0vh;
+    transition-timing-function: ease-in;
+    transition: transform 2s;
+    transition-timing-function: linear;
+}
+.card-img-top{
+    border-radius: 3vh;
+}
+#horror:hover,#romantic_comedy:hover,#animation:hover,#action:hover,#thrilling:hover{
+    background-color: rgb(2, 43, 29);
+    cursor: pointer;font-family: cursive;
+    transform: scale3d(1.08,1.08,1.08);
+    animation-name: do;
+    animation-duration: 2s;
+}
+@keyframes do {
+     0%{opacity: 1;
+     }
+     50%{
+          opacity: 0.5;
+     }
+     100%{
+          opacity:1;
+     }
+
+}
+#bingo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    width: 100vw;
+    margin-top: -12vh;
+    position: fixed;
+    padding: 1vh 0vw;
+    font-weight: bold;
+    background-image: radial-gradient(rgb(85, 7, 7),rgb(224, 49, 49),rgb(75, 11, 11));
+    transition: transform 2s;
+    transition-timing-function: linear;
+
+}
+#intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-top: 12vh;
+    background-color: rgba(110, 69, 6, 0.74);
+    text-align: right;
+    margin-left: 20vw;
+    padding-right: 2vw;
+    font-weight: 4em;
+    color:chocolate;
+    transition: transform 2s;
+    transition-timing-function: linear;
+}
+
+#bingo:hover,#intro:hover{
+        cursor: default;
+        transform: scale3d(1.04,1.04,1.04);
+}
+#footer{
+    text-decoration: none;
+    background-color: grey;
+    margin-top: 4vh;
+    width: 100vw;
+    padding-left: 4vw;
+    margin-left: -2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

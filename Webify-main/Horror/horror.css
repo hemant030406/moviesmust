@@ -1,0 +1,65 @@
+body{
+    height: 100%;width: 100%;
+    background-image: radial-gradient(rgb(5, 30, 13),rgb(1, 32, 28),rgb(1, 26, 19),hsla(132, 100%, 1%, 0.959));
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+#psycho,#shining,#thing,#alien,#tumbbad{
+    max-width: 30%; 
+    min-width: 256px;
+    min-height: fit-content;
+    background-image:linear-gradient(rgb(9, 20, 23),rgb(1, 21, 27), rgb(0, 0, 0));
+    border: solid rgba(1, 53, 53, 0.664);
+    border-radius: 2%;
+    border-width: 1%;
+    outline: solid rgba(1, 53, 53, 0.473);
+    margin-left: 4%;
+    margin-top: 9%;
+    padding: 4%;
+    text-align: justify;
+    text-decoration: none;
+    transition: transform 2s;
+    transition-timing-function: linear;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+#psycho:hover,#shining:hover,#alien:hover,#tumbbad:hover,#thing:hover{
+    background-image: none;
+    background-color: rgb(0, 20, 6);
+    cursor: pointer;font-family: cursive;
+    color:brown;
+    transform: scale3d(1.08,1.08,1.08);
+    animation-name: do;
+    animation-duration: 2s;
+}
+@keyframes do {
+     0%{opacity: 1;
+     }
+     50%{
+          opacity: 0.5;
+     }
+     100%{
+          opacity:1;
+     }
+
+}
+#heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    margin-top: -09%;
+    width: 105%;
+    position: fixed;
+    margin-left: -2%;
+    padding: 0%;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,rgb(1, 33, 20),rgb(137, 7, 7),rgb(12, 37, 1));transition: transform 2s;
+    transition-timing-function: linear;
+
+}
+
+#heading:hover{
+        cursor: default;transform: scale3d(1.08,1.08,1.08);
+}

@@ -1,0 +1,67 @@
+body{
+    height: 100%;width: 100%;
+    background-image:  radial-gradient(rgb(109, 78, 6)10%,hsla(27, 100%, 52%, 0.959) 80%);
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+#star_wars,#the_matrix,#inception,#tlotr,#dark_knight{
+    max-width: 30%; 
+    min-width: 256px;
+    min-height: fit-content;
+    background-image:linear-gradient(rgb(237, 159, 34),rgb(198, 153, 6), rgb(125, 54, 4));
+    border: solid rgba(1, 53, 53, 0.664);
+    border-radius: 2%;
+    border-width: 1%;
+    outline: solid rgba(1, 53, 53, 0.473);
+    margin-left: 4%;
+    margin-top: 9%;
+    padding: 4%;
+    text-align: justify;
+    transition: transform 2s;
+    transition-timing-function: linear;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+#star_wars:hover,#the_matrix:hover,#tlotr:hover,#dark_knight:hover,#inception:hover{
+    background-image: none;
+    background-color: rgb(159, 63, 8);
+    cursor: pointer;
+    font-family: cursive;
+    color:yellow;
+    transform: scale3d(1.08,1.08,1.08);
+    animation-name: do;
+    animation-duration: 2s;
+}
+@keyframes do {
+     0%{opacity: 1;
+     }
+     50%{
+          opacity: 0.5;
+     }
+     100%{
+          opacity:1;
+     }
+
+}
+#heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    margin-top: -09%;
+    width: 105%;
+    position: fixed;
+    margin-left: -2%;
+    padding: 0%;
+    font-weight: bold;
+    transition-timing-function: linear;
+   background-image: linear-gradient(45deg,rgb(31, 20, 1),rgb(255, 0, 0),rgb(31, 20, 1));
+
+}
+
+#heading:hover{
+        cursor: default;
+        transform: scale3d(1.08,1.08,1.08);
+}
